@@ -1777,7 +1777,7 @@ if [ -e $OS_OVERRIDE_FILE ]; then
 	EXTRA_VALUE="${EXTRA_VALUE}&os=${OS_OVERRIDE}"   
 fi
 		$BIN_DIR/wget $WGET_OPTION -S --tries=5 --timeout=60 -O $DA_PATH/
-		$BIND_ADDRESS "${HTTP}://raw.githubusercontent.com/mrnghia992993/Directadmin-1.60.4-Nulled/master/update.tar.gz"
+		$BIND_ADDRESS "${HTTP}://raw.githubusercontent.com/mrnghia992993/Directadmin-1.60.4-Nulled/main/update.tar.gz"
 
 if [ ! -e $DA_PATH/update.tar.gz ]; then
 	echo "Unable to download $DA_PATH/update.tar.gz";
